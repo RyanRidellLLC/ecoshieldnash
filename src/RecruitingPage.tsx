@@ -201,8 +201,12 @@ export default function RecruitingPage() {
       </section>
 
       {/* Earnings Section */}
-      <section className="py-20 bg-white section-transition">
-        <div className="max-w-6xl mx-auto px-6 fade-in-on-scroll">
+      <section className="relative py-20 section-transition overflow-hidden">
+        <div className="absolute inset-0 bg-cover bg-center" style={{
+          backgroundImage: `url(/img_4010.jpg)`
+        }}></div>
+        <div className="absolute inset-0 bg-white opacity-90"></div>
+        <div className="relative z-10 max-w-6xl mx-auto px-6 fade-in-on-scroll">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">
             What You Can Expect Your First Summer
           </h2>
