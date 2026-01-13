@@ -141,7 +141,7 @@ export default function RecruitingPage() {
             Now Hiring for Summer 2026
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-100 max-w-3xl mx-auto">
-            Sales Internship: Join Ecoshield Nashville- Where driven individuals propel themselves to the next level of their lives
+            AVERAGE SALES REP EARNS 30K+ WITHIN 4 MONTHS!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
