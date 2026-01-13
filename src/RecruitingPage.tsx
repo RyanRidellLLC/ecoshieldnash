@@ -305,7 +305,7 @@ export default function RecruitingPage() {
         <div className="max-w-2xl mx-auto px-6 fade-in-on-scroll">
           <div className="text-center text-white mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Ready to Learn More?</h2>
-            <p className="text-xl text-gray-100 mb-6">Book a short 10-minute interview to see if you're a fit</p>
+            <p className="text-xl text-gray-100 mb-6">Book a short 30-minute interview to see if you're a fit</p>
             <button
               onClick={openCalendly}
               className="bg-white text-[#009975] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl inline-block"
