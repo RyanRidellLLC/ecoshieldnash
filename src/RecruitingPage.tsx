@@ -275,18 +275,6 @@ export default function RecruitingPage() {
               {
                 question: "What kind of training do you provide?",
                 answer: "We have a 5 star rep program to complete before you come out. We offer a comprehensive onboarding program that covers product knowledge, sales techniques, customer relationship management, and on-the-job shadowing.",
-              },
-              {
-                question: "Can I do this while taking summer classes?",
-                answer: "This sales internship requires full-time availability during business hours, so taking summer classes is not advised."
-              },
-              {
-                question: "What happens after the summer ends?",
-                answer: "Many interns return for multiple summers, and some transition into year-round leadership roles. You'll also gain invaluable sales and communication skills that translate to any career.",
-              },
-              {
-                question: "What's the interview process like?",
-                answer: "After submitting your application, you'll be invited to a 10-15 minute phone interview where we'll discuss your goals, availability, and fit for the role. If it's a good match, you'll proceed with onboarding."
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden">
