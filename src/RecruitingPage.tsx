@@ -159,12 +159,12 @@ export default function RecruitingPage() {
         <div className="absolute inset-0 bg-cover bg-center" style={{
           backgroundImage: `url(/background_1.jpg)`
         }}></div>
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="absolute inset-0 bg-white opacity-85"></div>
         <div className="relative z-10 max-w-6xl mx-auto px-6 fade-in-on-scroll">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
             See What It's Like to Be Part of Ecoshield
           </h2>
-          <p className="text-center text-gray-100 mb-12 text-lg drop-shadow-md">Real reps. Real results. Real growth.</p>
+          <p className="text-center text-gray-700 mb-12 text-lg">Real reps. Real results. Real growth.</p>
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Video 1 */}
