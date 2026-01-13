@@ -4,7 +4,7 @@ import { uploadVideo, formatFileSize } from './utils/videoUpload';
 
 const VIDEO_URLS = {
   dayInTheLife: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-  successStories: 'https://www.youtube.com/embed/jNQXAC9IVRw'
+  successStories: 'https://www.youtube.com/embed/rNNbCm_H0NU?si=5U6SgprOjnTMhDJc'
 };
 
 export default function RecruitingPage() {
@@ -259,26 +259,26 @@ export default function RecruitingPage() {
           <p className="text-center text-gray-600 mb-12 text-lg">Everything you need to know before applying</p>
 
           <div className="space-y-4">
-            {[
+            {[ 
               {
                 question: "Do I need sales experience?",
-                answer: "Not at all! We provide comprehensive training for all new reps. Many of our top performers had zero sales experience before joining. We teach you everything you need to know about communication, customer service, and closing deals."
+                answer: "Not at all! We provide comprehensive training for all new reps. Many of our top performers had zero sales experience before joining. We teach you everything you need to know.",
               },
               {
                 question: "What's the time commitment?",
-                answer: "This is a full-time summer sales internship, typically running from May through August. You'll work Monday through Friday. Most reps work 40-50 hours per week during peak season."
+                answer: "This is a full-time summer sales internship, typically running from May through August. You'll work Monday through Friday. Most reps work 40-50 hours per week during peak season.",
               },
               {
                 question: "How does the pay structure work?",
-                answer: "You'll earn commission-based pay, which means your income is directly tied to your performance. The more you sell, the more you earn. We also offer bonuses for top performers and team incentives. Average first-year reps make $30K+, while top performers can earn over $100K in a single summer."
+                answer: "You'll earn commission-based pay, which means your income is directly tied to your performance. The more you sell, the more you earn. We also offer bonuses for top performers.",
               },
               {
                 question: "Where will I be working?",
-                answer: "You'll be working in the Nashville area and surrounding regions. We provide territories and leads, so you'll always know where you're going. Transportation is your responsibility, but we work with you to ensure you have the resources you need."
+                answer: "You'll be working in the Nashville area and surrounding regions. We provide territories and leads, so you'll always know where you're going. Transportation is your responsibility.",
               },
               {
                 question: "What kind of training do you provide?",
-                answer: "We have a 5 star rep program to complete before you come out. We offer a comprehensive onboarding program that covers product knowledge, sales techniques, customer relationship management, and professional development. You'll also receive ongoing coaching and mentorship from experienced managers throughout the summer."
+                answer: "We have a 5 star rep program to complete before you come out. We offer a comprehensive onboarding program that covers product knowledge, sales techniques, customer relationship management, and on-the-job shadowing.",
               },
               {
                 question: "Can I do this while taking summer classes?",
@@ -286,11 +286,11 @@ export default function RecruitingPage() {
               },
               {
                 question: "What happens after the summer ends?",
-                answer: "Many interns return for multiple summers, and some transition into year-round leadership roles. You'll also gain invaluable sales and communication skills that translate to any career path. Past interns have gone on to careers in business, law, medicine, and entrepreneurship."
+                answer: "Many interns return for multiple summers, and some transition into year-round leadership roles. You'll also gain invaluable sales and communication skills that translate to any career.",
               },
               {
                 question: "What's the interview process like?",
-                answer: "After submitting your application, you'll be invited to a 10-15 minute phone interview where we'll discuss your goals, availability, and fit for the role. If it's a good match, we'll schedule a more in-depth interview. The entire process typically takes 1-2 weeks."
+                answer: "After submitting your application, you'll be invited to a 10-15 minute phone interview where we'll discuss your goals, availability, and fit for the role. If it's a good match, you'll proceed with onboarding."
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden">
@@ -447,7 +447,7 @@ export default function RecruitingPage() {
                       />
                       <label
                         htmlFor="video"
-                        className="flex items-center justify-center w-full px-4 py-8 border-2 border-dashed border-gray-300 rounded-lg hover:border-[#009975] cursor-pointer transition-colors bg-gray-50 hover:bg-gray-100"
+                        className="flex items-center justify-center w-full px-4 py-8 border-2 border-dashed border-gray-300 rounded-lg hover:border-[#009975] cursor-pointer transition-colors bg-gray-50"
                       >
                         <div className="text-center">
                           <Upload className="w-10 h-10 mx-auto mb-2 text-gray-400" />
@@ -491,7 +491,7 @@ export default function RecruitingPage() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-gradient-to-r from-[#009975] to-[#007d5e] text-white py-4 rounded-lg font-bold text-lg hover:shadow-xl transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-gradient-to-r from-[#009975] to-[#007d5e] text-white py-4 rounded-lg font-bold text-lg hover:shadow-xl transition-all transform hover:scale-105 disabled:opacity-70 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? (uploadProgress || 'Submitting...') : 'Submit Application'}
                 </button>
