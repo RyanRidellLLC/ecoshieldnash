@@ -76,6 +76,21 @@ WHERE email = 'your-admin-email@example.com';
 - Videos are stored securely in Supabase Storage
 - Admin status is verified on every request
 
+## Optimizing Auth Server Performance
+
+To ensure optimal performance as your project scales, you should configure the Auth server to use percentage-based connection pooling:
+
+1. Go to your Supabase Dashboard: https://supabase.com/dashboard
+2. Select your project
+3. Navigate to **Settings** > **Database**
+4. Find the **Connection Pooling** section
+5. Locate the **Auth Server Connection Pool** settings
+6. Change the connection allocation strategy from **Fixed** to **Percentage**
+7. Set an appropriate percentage (recommended: 10-20% of your database connections)
+8. Click **Save**
+
+This allows the Auth server to scale automatically with your database instance size, improving performance under load.
+
 ## Need Help?
 
 If you have issues accessing the admin dashboard:
