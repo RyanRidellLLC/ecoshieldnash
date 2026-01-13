@@ -130,12 +130,11 @@ export default function RecruitingPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-32 md:py-40 flex items-center justify-center bg-gradient-to-br from-[#009975] to-[#007d5e] text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black opacity-10"></div>
-        <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: `radial-gradient(circle, white 1px, transparent 1px)`,
-          backgroundSize: '30px 30px'
+      <section className="relative py-32 md:py-40 flex items-center justify-center text-white overflow-hidden">
+        <div className="absolute inset-0 bg-cover bg-center" style={{
+          backgroundImage: `url(/nash_background.png)`
         }}></div>
+        <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Now Hiring for Summer 2026
