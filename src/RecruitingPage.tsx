@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { DollarSign, TrendingUp, GraduationCap, Phone, Mail, User, ChevronDown, Video, Upload, X } from 'lucide-react';
+import { DollarSign, TrendingUp, GraduationCap, Phone, Mail, User, ChevronDown, Video, Upload, X, Instagram } from 'lucide-react';
 import { uploadVideo, formatFileSize } from './utils/videoUpload';
 
 export default function RecruitingPage() {
@@ -488,6 +488,17 @@ export default function RecruitingPage() {
       {/* Footer */}
       <footer className="bg-[#009975] text-white py-12 section-transition">
         <div className="max-w-6xl mx-auto px-6 text-center">
+          <div className="mb-6">
+            <a
+              href="https://www.instagram.com/ecoshieldnashville/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-white hover:text-yellow-300 transition-colors text-lg font-semibold"
+            >
+              <Instagram className="w-6 h-6" />
+              @ecoshieldnashville
+            </a>
+          </div>
           <p className="text-lg mb-4">
             © 2025 Ecoshield Nashville Sales — Empowering the next generation of high-earning leaders
           </p>
