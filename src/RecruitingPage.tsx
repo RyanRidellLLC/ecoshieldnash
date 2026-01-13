@@ -155,12 +155,16 @@ export default function RecruitingPage() {
       </section>
 
       {/* Video Section */}
-      <section className="py-20 bg-gray-50 section-transition">
-        <div className="max-w-6xl mx-auto px-6 fade-in-on-scroll">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+      <section className="relative py-20 section-transition overflow-hidden">
+        <div className="absolute inset-0 bg-cover bg-center" style={{
+          backgroundImage: `url(/background_1.jpg)`
+        }}></div>
+        <div className="absolute inset-0 bg-black opacity-70"></div>
+        <div className="relative z-10 max-w-6xl mx-auto px-6 fade-in-on-scroll">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
             See What It's Like to Be Part of Ecoshield
           </h2>
-          <p className="text-center text-gray-600 mb-12 text-lg">Real reps. Real results. Real growth.</p>
+          <p className="text-center text-gray-200 mb-12 text-lg">Real reps. Real results. Real growth.</p>
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Video 1 */}
