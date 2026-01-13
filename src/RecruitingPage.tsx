@@ -4,7 +4,7 @@ import { uploadVideo, formatFileSize } from './utils/videoUpload';
 
 const VIDEO_URLS = {
   dayInTheLife: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-  successStories: 'https://www.youtube.com/embed/rNNbCm_H0NU?si=5U6SgprOjnTMhDJc'
+  successStories: 'https://www.youtube.com/embed/rNNbCm_H0NU?si=l-5vlEEPZcB4PBuX'
 };
 
 export default function RecruitingPage() {
