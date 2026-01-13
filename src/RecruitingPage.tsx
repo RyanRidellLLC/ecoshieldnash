@@ -138,7 +138,7 @@ export default function RecruitingPage() {
         }}></div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Spend your summer earning and learning more than your friends.
+            Now Hiring for Summer 2026
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-100 max-w-3xl mx-auto">
             Sales Internship: Join Ecoshield Nashville- Where driven individuals propel themselves to the next level of their lives
