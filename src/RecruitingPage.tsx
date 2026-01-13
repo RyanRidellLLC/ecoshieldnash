@@ -2,11 +2,6 @@ import { useState, useEffect } from 'react';
 import { DollarSign, TrendingUp, GraduationCap, Phone, Mail, User, ChevronDown, Video, Upload, X } from 'lucide-react';
 import { uploadVideo, formatFileSize } from './utils/videoUpload';
 
-const VIDEO_URLS = {
-  dayInTheLife: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-  successStories: 'https://www.youtube.com/embed/rNNbCm_H0NU?si=l-5vlEEPZcB4PBuX'
-};
-
 export default function RecruitingPage() {
   const [formData, setFormData] = useState({
     name: '',
@@ -171,14 +166,11 @@ export default function RecruitingPage() {
             {/* Video 1 */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all">
               <div className="relative aspect-video bg-black flex items-center justify-center">
-                <iframe
-                  className="w-full h-full"
-                  src={VIDEO_URLS.dayInTheLife}
-                  title="Day in the Life - Ecoshield Sales"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                <img
+                  src="/shield_marketing.jpg"
+                  alt="Day in the Life - Ecoshield Sales"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="font-bold text-xl mb-2 text-gray-900">Experience a Day in the Field</h3>
@@ -189,14 +181,11 @@ export default function RecruitingPage() {
             {/* Video 2 */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all">
               <div className="relative aspect-video bg-black flex items-center justify-center">
-                <iframe
-                  className="w-full h-full"
-                  src={VIDEO_URLS.successStories}
-                  title="Success Stories - Ecoshield Sales"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                <img
+                  src="/img_4030.jpg"
+                  alt="Success Stories - Ecoshield Sales"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="font-bold text-xl mb-2 text-gray-900">Hear From Top Performers</h3>
