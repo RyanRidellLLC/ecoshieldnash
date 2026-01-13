@@ -247,7 +247,7 @@ export default function RecruitingPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 section-transition bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/img_4010_copy.jpg')" }}>
+      <section className="py-20 section-transition bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/img_4038.jpg')" }}>
         <div className="max-w-4xl mx-auto px-6 fade-in-on-scroll">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
             Frequently Asked Questions
