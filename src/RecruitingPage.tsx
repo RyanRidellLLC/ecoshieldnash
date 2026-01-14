@@ -34,7 +34,17 @@ export default function RecruitingPage() {
       observer.observe(el);
     });
 
-    return () => observer.disconnect();
+    const script = document.createElement('script');
+    script.src = 'https://player.vimeo.com/api/player.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      observer.disconnect();
+      if (script.parentNode) {
+        script.parentNode.removeChild(script);
+      }
+    };
   }, []);
 
   const handleVideoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -169,15 +179,18 @@ export default function RecruitingPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Video 1 */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all">
-              <div className="relative aspect-video bg-black flex items-center justify-center">
-                <img
-                  src="/shield_marketing.jpg"
-                  alt="Day in the Life - Ecoshield Sales"
-                  className="w-full h-full object-cover"
+              <div style={{ padding: '135.59% 0 0 0', position: 'relative' }}>
+                <iframe
+                  src="https://player.vimeo.com/video/1152972689?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                  title="Come join the team"
                 />
               </div>
               <div className="p-6">
-                <h3 className="font-bold text-xl mb-2 text-gray-900">Experience a Day in the Field</h3>
+                <h3 className="font-bold text-xl mb-2 text-gray-900">Come Join the Team</h3>
                 <p className="text-gray-600">See what a typical day looks like for our sales reps</p>
               </div>
             </div>
