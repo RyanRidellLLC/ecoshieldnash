@@ -17,9 +17,11 @@ function selectivePublicCopy() {
         'background_1.jpg',
         'img_4010.jpg',
         'img_4030.jpg',
+        'img_4030 copy.jpg',
         'img_4038.jpg',
         'nash_background.png',
-        'shield_marketing.jpg'
+        'shield_marketing.jpg',
+        'shield_marketing copy.jpg'
       ];
 
       filesToCopy.forEach(file => {
