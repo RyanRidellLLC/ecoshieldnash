@@ -166,24 +166,8 @@ export default function RecruitingPage() {
           </h2>
           <p className="text-center text-gray-700 mb-12 text-lg">Real reps. Real results. Real growth.</p>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Video 1 */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all">
-              <div className="relative aspect-video bg-black flex items-center justify-center">
-                <img
-                  src="/img_4030 copy.jpg"
-                  alt="Training and Team Development"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-bold text-xl mb-2 text-gray-900">World-Class Training</h3>
-                <p className="text-gray-600">Learn from experienced leaders who know what it takes to succeed</p>
-              </div>
-            </div>
-
-            {/* Video 2 */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all">
+          <div className="flex justify-center">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all max-w-2xl w-full">
               <div className="relative aspect-video bg-black flex items-center justify-center">
                 <img
                   src="/shield_marketing copy.jpg"
