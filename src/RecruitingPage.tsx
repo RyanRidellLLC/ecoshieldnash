@@ -168,11 +168,14 @@ export default function RecruitingPage() {
 
           <div className="flex justify-center">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all max-w-2xl w-full">
-              <div className="relative aspect-video bg-black flex items-center justify-center">
-                <img
-                  src="/shield_marketing copy.jpg"
-                  alt="Join the Ecoshield Team"
-                  className="w-full h-full object-cover"
+              <div className="relative" style={{ paddingBottom: '177.78%' }}>
+                <iframe
+                  src="https://www.youtube.com/embed/8-s6JIQh6vw"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute top-0 left-0 w-full h-full"
+                  title="Be Part of Something Bigger"
                 />
               </div>
               <div className="p-6">
